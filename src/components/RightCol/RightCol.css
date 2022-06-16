@@ -1,0 +1,163 @@
+.right-container {
+  position: absolute;
+  width: 20%;
+  height: 100vh;
+  left: 80%;
+  top: 0px;
+  background-color: rgb(255, 255, 255);
+}
+.user-container {
+  width: 80%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.user-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-profile {
+  border-radius: 50%;
+}
+.user-detail > p {
+  margin-top: 3px;
+  font-size: small;
+  margin-bottom: 0px;
+}
+.user-arrow {
+  align-self: center;
+}
+.meeting-container {
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: rgb(237, 237, 237);
+}
+.meeting-container > b {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+.line {
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+
+.symbole {
+  padding-right: 25px;
+  color: black;
+}
+.meetings {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.meetings > span {
+  padding-right: 25px;
+}
+.meetings > hr {
+  margin-right: 25px;
+}
+.meeting-info-conatiner {
+  margin-top: 25px;
+}
+.meeting-info-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: smaller;
+  color: rgb(78, 151, 247);
+}
+.meeting-info-time {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  font-size: smaller;
+}
+.meeting-info-time > div {
+  color: rgb(112, 108, 108);
+  margin-right: 5px;
+  font-size: smaller;
+}
+.meeting-info-members {
+  display: flex;
+  justify-content: space-between;
+}
+.meeting-members {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px;
+  font-size: smaller;
+}
+.meeting-member-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: -5px;
+}
+.meeting-members-button {
+  margin-right: 25px;
+  background-color: rgb(0, 136, 255);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.meeting-member-number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(170, 175, 175);
+  text-align: center;
+  padding-top: 5px;
+}
+.activity-container {
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: rgb(237, 237, 237);
+}
+.activity-container > b {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+.activity-container > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+.activity {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+.activity-user > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+.activity-info {
+  width: 60%;
+  font-size: small;
+}
+.activity-title {
+  margin-bottom: 5px;
+}
+.activity-time {
+  color: rgb(140, 140, 140);
+}
+.bullet-point {
+  color: rgb(12, 128, 173);
+}
+.right-col-container {
+  height: 800px;
+  background-color: rgb(237, 237, 237);
+}

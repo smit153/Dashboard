@@ -1,0 +1,109 @@
+.middle-container {
+  position: absolute;
+  width: 60%;
+  height: 100vh;
+  left: 20%;
+  top: 0px;
+  background-color: rgb(255, 255, 255);
+}
+.search-container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.search {
+  background-color: rgb(207, 204, 204);
+  width: 75%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.searchbar {
+  width: 90%;
+  height: 60%;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 0px;
+  padding: 0px;
+}
+.searchbar:focus {
+  outline: none;
+}
+.search-icon {
+  padding: 20px;
+  display: inline-block;
+}
+.welcome-container {
+  padding: 25px;
+  padding-top: 0;
+}
+.cards {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.live-card {
+  margin-top: 20px;
+  margin-right: 10px;
+  background: #6590ff;
+  box-shadow: 0px 20px 60px rgba(2, 140, 213, 0.15);
+  border-radius: 11.4904px;
+  width: 35%;
+  height: 35%;
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". .";
+}
+.card-button {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgba(12, 12, 12, 0.2);
+  border-radius: 5px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 2px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.button-title {
+  color: white;
+  margin-left: 10px;
+}
+.right-btn {
+  height: 26px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: rgba(12, 12, 12, 0.2);
+  border-radius: 5px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  padding: 2px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.details > h1 {
+  color: white;
+  margin: 0;
+  margin-top: 50px;
+  padding-left: 10px;
+  font-size: 60px;
+}
+.details > div {
+  color: white;
+  margin: 0;
+  padding-left: 10px;
+  font-size: small;
+  padding-bottom: 10px;
+}

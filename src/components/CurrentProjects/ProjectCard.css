@@ -1,0 +1,61 @@
+.project-card {
+  margin-left: 45px;
+  margin-top: 10px;
+  box-shadow: #0a1017 0px 0px 5px;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.client-data > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.project-name {
+  font-size: large;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+.project-details > div {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.project-progress > progress {
+  width: 100%;
+}
+.project-progress > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+}
+.project-client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-client > div {
+  display: flex;
+  align-items: center;
+}
+.project-deadline {
+  color: black;
+  font-weight: 500;
+}
+.view-client {
+  margin-left: 10px;
+  color: white;
+  background-color: #0760c5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+.client-data > div {
+  font-size: small;
+}

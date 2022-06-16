@@ -1,0 +1,33 @@
+.links {
+  margin-top: 15px;
+  display: flex;
+
+  padding-left: 15px;
+  width: 95%;
+  text-align: start;
+}
+.notification {
+  height: 20px;
+  width: 30px;
+  border-radius: 10%;
+  text-align: center;
+  color: rgb(237, 237, 237);
+}
+.icon {
+  width: 20%;
+  overflow: hidden;
+}
+.name {
+  width: 65%;
+}
+.navBar-conat {
+  background-color: rgb(237, 237, 237);
+  color: rgb(102, 102, 102);
+  width: 100%;
+}
+.button {
+  width: 100%;
+  border: 0px;
+  color: rgb(237, 237, 237);
+  background-color: transparent;
+}
