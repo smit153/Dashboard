@@ -27,7 +27,9 @@ export default function CurrentProjects() {
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
-        <div></div>
+        <div className="arrow-button">
+          <button>ᐳ</button>
+        </div>
       </div>
     </div>
   );

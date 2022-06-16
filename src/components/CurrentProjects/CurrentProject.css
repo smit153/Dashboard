@@ -43,6 +43,7 @@
   width: 96%;
   overflow: hidden;
   justify-content: flex-start;
+  position: relative;
 }
 .invoice-symbole > button {
   height: 30px;
@@ -57,4 +58,15 @@
 .invoice-body {
   display: flex;
   width: 95%;
+}
+.arrow-button > button {
+  position: absolute;
+  left: 95%;
+  top: 35%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }

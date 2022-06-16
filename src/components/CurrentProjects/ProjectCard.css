@@ -1,10 +1,11 @@
 .project-card {
-  margin-left: 45px;
+  margin-left: 30px;
   margin-top: 10px;
   box-shadow: #0a1017 0px 0px 5px;
   width: 40%;
   padding: 10px;
   margin-bottom: 20px;
+  flex-shrink: 0;
 }
 .client-data > img {
   width: 30px;
